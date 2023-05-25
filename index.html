@@ -1,0 +1,104 @@
+<!-- 웹사이트 구성 예제 3 -->
+<!-- 
+    이 예제는 .css 파일이 별도로 필요없이 html 파일에 CSS 코드를 적으면 됩니다.
+    <head> 의 <style> 부분에 코드를 추가하면 됩니다.
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+    .container{
+            display: grid;
+            grid-gap: 5px;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+        }
+        
+    .box {
+            background-color: rgb(185, 185, 192);
+            text-align: center;
+    }
+
+
+    h1,
+        .box:nth-child(3) {
+            font-family: 'Play', sans-serif;
+        }
+
+
+        h1,
+        .box:nth-child(2) {
+            font-family: 'Play', sans-serif;
+        }
+
+        h1,
+        .box:nth-child(1) {
+            font-family: 'Play', sans-serif;
+        }
+
+        h1,
+        .box:nth-child(4) {
+            font-family: 'Play', sans-serif;
+        }
+
+        h1,
+        .box:nth-child(5) {
+            font-family: 'Play', sans-serif;
+        }
+
+        h1,
+        .box:nth-child(6) {
+            font-family: 'Play', sans-serif;
+        }
+
+    </style>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap" rel="stylesheet">
+
+    <title> ONF.disc</title>
+</head>
+<body>
+<header>
+    <h1>ONF.disc</h1>
+</header>
+<main>
+    <div class="container">
+    
+        <div class="box"><span>SPIN OFF</span><br>
+
+            <a href="https://youtu.be/4gM5iabo6T8/spinoff">
+            <img src="spinoff.JPG" width="50%"> </a></div>
+
+        <div class="box"><span>GO-LIVE</span><br>
+            <a href="https://youtu.be/1itkexo3Fus/why">
+            <img src="why.JPG" width="50%">
+            </a>
+        </div>
+
+        <div class="box"><span>Goose Bumps</span><br>
+            <a href="https://youtu.be/pnutWFsd2ZY/goosebumps">
+            <img src="goosebumps.JPG" width="50%">
+        </a></div>
+        <div class="box"><span>UGLY DANCE</span><br>
+            <a href="https://youtu.be/ddrmHWqZeAA/uglydance">
+                <img src="uglydance.WEBP" width="50%"></a></div>
+
+        <div class="box"><span>We Must Love</span><br>
+            <a href="https://youtu.be/bejrK6XnFUA/wml">
+            <img src="wml.JPG" width="50%"></a></div>
+
+        <div class="box"><span>ONF:MY NAME</span><br>
+            <a href="https://youtu.be/vqBveGPDOjA/myname">
+                <img src="myname.WEBP" width="50%"></a></div>
+    </div>
+</main>
+
+</body>
+</html>
